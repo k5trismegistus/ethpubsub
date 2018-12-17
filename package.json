@@ -1,0 +1,20 @@
+{
+  "name": "ethpubsub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ganache-cli": "^6.2.3",
+    "truffle": "^4.1.14",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "ganache": "ganache-cli",
+    "truffle": "truffle",
+    "truffle-console": "truffle console --network live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
